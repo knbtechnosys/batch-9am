@@ -9,6 +9,7 @@ spec:
        - { key: app, operator: In, values: {“myonlineapp”}}
    template:                                     
      metadata:
+       name: nginx-my  
        labels:
           app: myonlineapp
      spec:
