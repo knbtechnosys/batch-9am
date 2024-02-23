@@ -9,7 +9,7 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    imagePullPolicy: IfNotPresent   #Always, Never
+    imagePullPolicy: IfNotPresent  #Always, Never
     ports:
     - containerPort: 80
     volumeMounts:
