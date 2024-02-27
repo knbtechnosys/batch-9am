@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name:  myonlineapp-svc
   labels:
-    app: myonlineapp
+    app: myvertexapp
     version: 2.6.1
 spec:
   type: NodePort
@@ -12,5 +12,5 @@ spec:
     nodePort: 32000
     protocol: TCP
   selector:
-    app: myonlineapp
+    app: myvertexapp
     version: 2.6.1
