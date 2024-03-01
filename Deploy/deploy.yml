@@ -1,18 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myjavaapp-deploy
+  name: vertex-deploy
   labels:
-    app: myjavaapp
+     app: myvertexapp
+     version: 2.6.1
 spec:
   replicas: 3
   selector:
       matchLabels:
-         app: myjavaapp
+        app: myvertexapp
+        version: 2.6.1
   template:
      metadata:
        labels:
-         app: myjavaapp
+           app: myvertexapp
+           version: 2.6.1
      spec:
        containers:
        - name: myjavaapp-container
