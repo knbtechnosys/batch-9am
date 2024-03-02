@@ -1,7 +1,7 @@
 apiVersion: apps/v1 #extensions/v1beta1
 kind: DaemonSet
 metadata:
-  name: frontend
+  name: daemon-pod
 spec:
   selector:
     matchLabels:
