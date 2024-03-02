@@ -6,7 +6,7 @@ metadata:
      app: myvertexapp
      version: 2.6.1
 spec:
-  replicas: 3
+  replicas: 5
   selector:
       matchLabels:
         app: myvertexapp
