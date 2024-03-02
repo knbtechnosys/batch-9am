@@ -10,6 +10,6 @@ spec:
       - name: my-container
         image: ubuntu
         command: ["/bin/bash"]
-        args: ["-c","echo welcome to kubernetes jon "]
+        args: ["-c","echo welcome to kubernetes job "]
       restartPolicy: Never
 
