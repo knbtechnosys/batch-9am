@@ -14,6 +14,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                app: myvertexapp
+                name: vertex-svc
                 port:
                   number: 80
