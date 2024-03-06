@@ -1,0 +1,9 @@
+sh(script: '''curl -l https://qcapi.playerzpot.com/v3/Jenkins/build/prod-club/${version_clubservices}/${branch_clubservices}/''', returnStatus: true)
+team
+pot
+join
+leaderboard
+kyc
+login
+deposit
+club
