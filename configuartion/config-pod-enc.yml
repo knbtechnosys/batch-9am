@@ -15,5 +15,12 @@ spec:
               # The ConfigMap containing the value you want to assign to SPECIAL_LEVEL_KEY
               name: nginx-data
               # Specify the key associated with the value
-              key: DBpassword
+              key: username
+        - name: DBPASSWORD
+          valueFrom:
+            configMapKeyRef:
+              # The ConfigMap containing the value you want to assign to SPECIAL_LEVEL_KEY
+              name: nginx-data
+              # Specify the key associated with the value
+              key: DBpassword        
   restartPolicy: Never
