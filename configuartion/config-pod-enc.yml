@@ -9,7 +9,7 @@ spec:
       command: [ "/bin/sh", "-c", "env" ]
       env:
         # Define the environment variable
-        - name: USERNAME
+        - name: USENRAME
           valueFrom:
             configMapKeyRef:
               # The ConfigMap containing the value you want to assign to SPECIAL_LEVEL_KEY
@@ -22,5 +22,5 @@ spec:
               # The ConfigMap containing the value you want to assign to SPECIAL_LEVEL_KEY
               name: nginx-data
               # Specify the key associated with the value
-              key: DBpassword        
+              key: password        
   restartPolicy: Never
