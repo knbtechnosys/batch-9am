@@ -3,6 +3,8 @@ kind: Pod
 metadata:
   name: tomcatpod
 spec:
+  imagePullSecrets:
+    - name: docker-hub  
   containers:
     - name: demo
       image: nbktechnosys/mynginxrepo:latest
