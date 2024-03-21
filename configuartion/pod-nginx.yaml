@@ -7,6 +7,6 @@ spec:
     - name: docker-hub  
   containers:
     - name: demo
-      image: nbktechnosys/mynginxrepo:latest
+      image: nbktechnosys/myjavaapp4april23:1
       ports: 
-        - containerPort: 80
+        - containerPort: 8080
