@@ -6,7 +6,7 @@ metadata:
     name: nginx
 spec:
   containers:
-  - name: nginx
+  - name: webserevr
     image: nginx
     ports:
     - containerPort: 80
